@@ -7,11 +7,12 @@ import NavItem from '../NavItem/NavItem';
 const Header = () => {
 	return (
 		<header className="flex">
-			<LogoIcon className='w-24'/>
-			<nav className="flex">
-				<NavItem text="Один" />
-				<NavItem text="Два" />
-				<NavItem text="Три" />
+			<LogoIcon className="w-24" />
+			<nav className="flex space-x-6 ml-8 items-center">
+				<NavItem text="Feature"></NavItem>
+				<NavItem text="Company"></NavItem>
+				<NavItem text="Careers" />
+				<NavItem text="About" />
 			</nav>
 		</header>
 	);
