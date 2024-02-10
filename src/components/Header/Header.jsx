@@ -9,7 +9,7 @@ import Button from '../Button/Button';
 
 const Header = () => {
 	return (
-		<header className="flex">
+		<header className="flex items-center">
 			<LogoIcon className="w-12" />
 
 			<nav className="flex space-x-6 ml-8 items-center">

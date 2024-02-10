@@ -3,7 +3,7 @@ import React from 'react';
 //заготовки
 const borderStyles = 'border-2 border-almost-black rounded-lg';
 const filledStyles =
-	'text-almost-white bg-black rounded-lg font-bold py-4 px-6 mx-0 hover:bg-transparet hover:text-almost-black border-2 border-almost-black';
+	'text-white bg-black rounded-lg font-bold py-4 px-6 mx-0 hover:bg-transparent hover:text-almost-black border-2 border-almost-black';
 
 const Button = ({ children = '', hasBorder = false, isFilled = false }) => {
 	return (
