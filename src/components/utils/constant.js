@@ -4,7 +4,7 @@ import { GrGremlin } from 'react-icons/gr';
 import { SiMaxplanckgesellschaft } from 'react-icons/si';
 
 export const FEATURES = [
-	{ text: 'todo list', icon: <FcTodoList /> },
+	{ text: 'Todo list', icon: <FcTodoList /> },
 	{ text: 'Calendar', icon: <FaRegCalendarAlt /> },
 	{ text: 'Reminders', icon: <GrGremlin /> },
 	{ text: 'Planning', icon: <SiMaxplanckgesellschaft /> },
